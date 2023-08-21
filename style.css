@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+h2{
+    font-weight: 700;
+}
+p{
+    font-size: 15px;
+}
+
+.QR__img{
+    border-radius: 20px;
+}
+.QR{
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+    width: 375px;
+}
+.QR__heading,.QR__text{
+    text-align: center;
+}
+.QR__text{
+    padding: 0px 35px;
+}
+.QR__heading{
+    padding: 0 10px;
+}
